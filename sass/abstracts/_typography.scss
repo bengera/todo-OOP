@@ -1,7 +1,7 @@
-$ff-sans: "Times New Roman", Times, serif;
+$ff-noto: "Noto Sans", Times, serif;
 $ff-serif: "Lucida Console", "Courier New", monospace;
 
-$ff-base: $ff-sans;
+$ff-base: $ff-noto;
 $ff-accent: $ff-serif;
 
 $font-sizes: (
@@ -15,3 +15,4 @@ $font-sizes: (
 
 $fw-400: 400;
 $fw-700: 700;
+

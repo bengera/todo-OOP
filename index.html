@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Vite App</title>
     <script type="module" src="main.js"></script>
     <link rel="stylesheet" href="/sass/main.scss" />
@@ -13,17 +15,36 @@
 
     <main>
       <div class="container">
+
+
         <h1>Todo list with OOP</h1>
+
         <div class="app">
-           <div class="form-control">
+
+          <div class="form-control">
             <label for="email"></label>
-            <input type="text" placeholder="Add task" id="add-task">
-            <!-- <svg class="i-error" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><g fill="none" fill-rule="evenodd"><circle cx="10" cy="10" r="10" fill="#FA5959"/><g fill="#FFF" transform="translate(9 5)"><rect width="2" height="7" rx="1"/><rect width="2" height="2" y="8" rx="1"/></g></g></svg>     -->
+            <input type="text" placeholder="Do the laundry" id="add-task">
+            <button class="btn-add-task">➕</button>
           </div>
-          <button class="btn-add-task">Add</button>
-        </div>
-      </div>
-      <!--container end-->
+          
+          <div class="task-list">
+            <div class="list-item">
+              <p class="list-item__text">Walk the dog</p>
+              <button class="btn-remove">✖</button>
+            </div>
+
+            <div class="list-item">
+              <p class="list-item__text">Buy groceries</p>
+              <button class="btn-remove">✖</button>
+            </div>
+          </div> <!--task-list end-->
+        
+
+
+        </div> <!--app end-->
+
+
+      </div> <!--container end-->
     </main>
 
   </body>
