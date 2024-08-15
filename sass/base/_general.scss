@@ -31,11 +31,15 @@ body {
 
 button {
   padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
 }
 
 input {
   width: 480px;
   padding: 0.3rem;
+  
 }
 
 .task-list {
@@ -54,12 +58,12 @@ input {
   border: 1px solid rgb(140, 197, 197);
   background-color: rgb(178, 248, 248);
   padding: 0.5rem;
+  border-radius: 5px;
 }
 
 .btn-remove {
   background-color: rgb(212, 223, 230);;
   border: 0;
-  cursor: pointer;
   width: 50px;
   
 }
